@@ -4,7 +4,8 @@ project(ur_kinematics)
 find_package(catkin REQUIRED COMPONENTS roscpp geometry_msgs 
 # moveit_core 
 # moveit_kinematics
-# moveit_ros_planning pluginlib tf_conversions)
+# moveit_ros_planning pluginlib tf_conversions
+)
 
 find_package(Boost REQUIRED COMPONENTS system)
 
