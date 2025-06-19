@@ -30,7 +30,8 @@ catkin_package(
     ur20_moveit_plugin
     ur30_kin
     ur30_moveit_plugin
-  CATKIN_DEPENDS roscpp geometry_msgs moveit_core 
+  CATKIN_DEPENDS roscpp geometry_msgs 
+  #CATKIN_DEPENDS moveit_core 
   # moveit_kinematics moveit_ros_planning
     pluginlib tf_conversions
   DEPENDS Boost
